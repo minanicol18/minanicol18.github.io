@@ -1,0 +1,77 @@
+body {
+    background: rgb(244, 149, 246);
+    color: rgb(71, 64, 70);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Robota',  sans-serif;
+}
+
+#all-contents {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(176, 9, 198);
+    margin: 0 auto;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(36, 34, 36);
+    flex: 1;
+    margin: 0;
+}
+
+#nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #7e036f;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(245, 238, 219);
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    margin-right: 35px;
+    padding: 20px;
+}
+
+.sidebar-img {
+    width: 500px;
+}
+
+.content {
+    flex: 2;
+    padding: 20px;
+}
+
+/* interests section styles */
+#interests {
+    border: 15px rgba(172, 49, 217, 0.599) ridge;
+    padding: 13px;
+    margin-top: 25px;
+}
+
+h2, h3 {
+    margin: 0px;
+}
