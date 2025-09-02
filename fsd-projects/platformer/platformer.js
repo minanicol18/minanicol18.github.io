@@ -57,7 +57,7 @@ createCollecatble("steve",300,200,0.5,0.7);
     // TODO 4 - Create Cannons
 
 createCannon("left" 300,600)
-createCannon("right")
+createCannon("right" 200,800)
     
     
     //////////////////////////////////
