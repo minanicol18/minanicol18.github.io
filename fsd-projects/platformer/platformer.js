@@ -50,14 +50,15 @@ createCollectable("steve", 600,400,0.5,0.7);
 createCollectable("diamond",400,550,0.5,0.7);
 createCollectable("diamond",600,600,0.5,0.7);
 createCollectable("diamond",500,300,0.5,0.7);
-createCollecatble("steve",300,200,0.5,0.7);
+createCollectable("steve",300,200,0.5,0.7);
 
 
     
     // TODO 4 - Create Cannons
+createCannon("top",400,1000);
+createCannon("right",500,1300);
+createCannon("bottom", 200,1500);
 
-createCannon("left" 300,600)
-createCannon("right" 200,800)
     
     
     //////////////////////////////////
